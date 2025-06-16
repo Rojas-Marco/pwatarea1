@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive</title>
+  <style>
+     body {
+      background-color: lightblue;
+    }
+    form {
+      width: 300px;
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    body { font-family: sans-serif; }
+    .contenido { padding: 20px; background: #d32f2f; }
+    @media (max-width: 600px) {
+      .contenido { background: #ffe0b2; font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="contenido">
+    <p>Este contenido se adapta al tamaño de pantalla.</p>
+    <div style="margin-top: 30px;">
+          <a href="index.html"
+          style="padding: 10px 20px;
+          background-color: #007BFF;
+          color: white;
+          text-decoration: none;
+          border-radius: 3px;
+          border: 2px solid black;">INICIO</a>
+  </div>
+</body>
+</html>

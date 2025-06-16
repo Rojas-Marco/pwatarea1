@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería</title>
+  <style>
+    body { background-color: #fff0f0; font-family: Arial; }
+    img { width: 150px; cursor: pointer; margin: 10px; }
+  </style>
+  <script>
+    function mostrar(imgSrc) {
+      window.open(imgSrc, '_blank');
+    }
+  </script>
+</head>
+<body>
+  <h2>Mis pasatiempos</h2>
+  <img src="https://revistavive.com/wp-content/uploads/2018/03/Razones-para-leer.jpg" alt="Leer" onclick="mostrar('img1/lee.jpg')">
+  <p>Leer</p>
+  <img src="https://www.infobae.com/resizer/v2/6ZHJ2XOECVFKPAPHU2G5DVHZJ4.jpg?auth=e6bb991b55febd72a78c06c7640ac4c72ebdc7a4fd325701c2fdd1c95156279a&smart=true&width=350&height=233&quality=85" alt="Jugar" onclick="mostrar('img2.jpg')">
+  <p>Jugar</p>
+  <img src="https://impulsapopular.com/wp-content/uploads/2023/02/0159-Emprendimiento-Tech-ventajas-de-saber-programar.jpg" alt="Programar" onclick="mostrar('img3.jpg')">
+  <p>Programar</p>
+  <div style="margin-top: 30px;">
+          <a href="index.html"
+          style="padding: 10px 20px;
+          background-color: #007BFF;
+          color: white;
+          text-decoration: none;
+          border-radius: 3px;
+          border: 2px solid black;">INICIO</a>
+  </div>
+</body>
+</html>
